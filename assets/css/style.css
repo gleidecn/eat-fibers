@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #474444
+}
+
+/* heading and logo */
+h1 {
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #138D75 ;
+}
+
+#logo{
+    float: left;
+    font-size: 300%;
+}
