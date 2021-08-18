@@ -23,6 +23,7 @@ h1 {
 #logo{
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -53,4 +54,43 @@ h1 {
 
 .active {
     border-bottom: #138D75;
+}
+
+/* pineappleImage */
+
+#pineapple {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pineappleImage {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-shvets-production-7195230.jpg') no-repeat center center;
+}
+
+/* text */
+
+#text {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: royalblue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: salmon;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
 }
