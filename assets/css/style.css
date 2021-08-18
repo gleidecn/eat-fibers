@@ -80,17 +80,60 @@ h1 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: royalblue;
+    
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: salmon;
+    
 }
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+    
 }
+
+hr {
+    border-top: 1px solid #2C3E50;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+     float: right;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+     float: left;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
+}
+
+.center-about-heading {
+    width: 60%;
+     float: center;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
+}
+
+p left-about-heading {
+    text-align: left;
+}
+
+p right-about-heading {
+    text-align: right;
+
+}
+
+p center-about-heading {
+    text-align: center;
+} 
