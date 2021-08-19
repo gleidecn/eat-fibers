@@ -7,12 +7,13 @@
 }
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #2C3E50
 }
 
-/* heading and logo */
+/* ------------------ Heading and Logo  -------------*/
+
 h1 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
@@ -26,7 +27,7 @@ h1 {
     margin-left: 30px;
 }
 
-/* navigation links */
+/* ------------------ Navigation Links ----------------*/
 
 #menu {
     font-size: 110%;
@@ -56,24 +57,47 @@ h1 {
     border-bottom: #138D75;
 }
 
-/* pineappleImage */
+/* -------------- Images and cover Text-------------- */
 
-#pineapple {
+#tropical-fruits {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
+    position: relative;
 }
 
-#pineappleImage {
+
+#first-background-img {
     height: 600px;
     width: 100%;
+    overflow: hidden;
     background: url('../images/pexels-shvets-production-7195230.jpg') no-repeat center center;
+    background-size: cover;
 }
 
-/* text */
-
-#text {
+.nuts-fruits-img {
+    background: url('../images/nathan-dumlao-rWcza92CapI-unsplash.jpg') no-repeat;
+    width: 100%;
+    margin-bottom: 20px;
     height: 600px;
+}
+
+#cover-text, #cover-text h3 {
+    color: #fff;
+
+}
+
+/* ---------------- Text About ------------------------ */
+
+#text-about {
+    height: 600px;
+}
+#title-about {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+    
 }
 
 #left-about {
@@ -137,3 +161,25 @@ p right-about-heading {
 p center-about-heading {
     text-align: center;
 } 
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 35px;
+    padding-left: 20px;
+
+    background-color: rgb(255, 204, 204, .7);
+
+    bottom: 30px;
+    left: 300px;
+
+    position: absolute;
+}
+/* ----------    ------------- */ 
