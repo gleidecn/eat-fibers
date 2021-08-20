@@ -68,19 +68,19 @@ h1 {
 }
 
 
-#first-background-img {
+#cover-img-bg {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background: url('../images/pexels-shvets-production-7195230.jpg') no-repeat center center;
+    background: url('../images/pineapple-bananas.jpg') no-repeat center center;
     background-size: cover;
 }
 
-.nuts-fruits-img {
-    background: url('../images/nathan-dumlao-rWcza92CapI-unsplash.jpg') no-repeat;
-    width: 100%;
-    margin-bottom: 20px;
-    height: 600px;
+#left-about-img {
+    background: url('../images/chia-rasberrys.jpg') no-repeat;
+    width: 100px;
+    height: 150px;
+    background-size: cover;
 }
 
 #cover-text, #cover-text h3 {
@@ -88,13 +88,28 @@ h1 {
 
 }
 
+#right-about-img {
+    background: url('../images/spirulina-kiwi.jpg') no-repeat;
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    
+}
+#center-about-img {
+    background: url('../images/artichoke-carrots.jpg') no-repeat;
+    width: 150px;
+    height: 210px;
+    background-size: cover;
+}
+
+
 /* ---------------- Text About ------------------------ */
 
 #text-about {
     height: 600px;
 }
-#title-about {
-    text-align: center;
+#title-heading-about {
+    text-align: center; 
     margin: 20px 0;
     font-size: 200%;
     
