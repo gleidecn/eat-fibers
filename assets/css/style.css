@@ -67,7 +67,6 @@ h1 {
     position: relative;
 }
 
-
 #cover-img-bg {
     height: 600px;
     width: 100%;
@@ -76,38 +75,21 @@ h1 {
     background-size: cover;
 }
 
-#left-about-img {
-    background: url('../images/chia-rasberrys.jpg') no-repeat;
-    width: 100px;
-    height: 150px;
-    background-size: cover;
-}
-
 #cover-text, #cover-text h3 {
     color: #fff;
 
 }
 
-#right-about-img {
-    background: url('../images/spirulina-kiwi.jpg') no-repeat;
-    width: 150px;
-    height: 100px;
-    background-size: cover;
-    
-}
-#center-about-img {
-    background: url('../images/artichoke-carrots.jpg') no-repeat;
-    width: 150px;
-    height: 210px;
-    background-size: cover;
-}
-
-
 /* ---------------- Text About ------------------------ */
 
 #text-about {
     height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
 }
+
 #title-heading-about {
     text-align: center; 
     margin: 20px 0;
@@ -118,8 +100,7 @@ h1 {
 #left-about {
     padding-top: 30px;
     width: 33%;
-    float: left;
-    
+    float: left;    
 }
 
 #right-about {
@@ -140,15 +121,25 @@ hr {
 }
 
 .left-about-heading {
-    width: 60%;
-     float: right;
+
+     font-size: 100%;
+     font-family: Open Sans, sans-serif;
+     letter-spacing: 4px;
+     width: 60px;
+     float: left;
      line-height: 20px;
      clear: both;
-     margin-bottom: 50px;
-}
 
-.left-about-heading {
-    text-align: left;
+     margin: 40px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     
+    width: 400px;
+    height: 130px; 
+
+    position: absolute;
+
+    background-color: rgb(154, 3, 30, .4);
 }
 
 .right-about-heading {
@@ -177,7 +168,6 @@ p left-about-heading {
 
 p right-about-heading {
     text-align: right;
-
 }
 
 p center-about-heading {
