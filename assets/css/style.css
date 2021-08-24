@@ -86,6 +86,7 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
     position: relative;
 
 }
@@ -98,20 +99,35 @@ h1 {
 }
 
 #left-about {
-    padding-top: 30px;
+    margin: 30px;
+    padding-top: 2px;
     width: 33%;
     float: left;    
+}
+
+.left-about-heading {
+   font-size: 100%;
+   font-family: Open Sans, sans-serif;
+   letter-spacing: 3px;
+    
+   position: absolute;
+   line-height: 20px; 
+   width: 40%;
+   height: 290px;
+   float: right;
+   margin-top: 10px;
+   background-color: rgba(211, 141, 154, 0.568);
+   padding: 20px 20px 10px 20px;
+   clear: both;
+   border: solid 2px;
+   border-radius: 5px;
+   color: #2D3E50;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
-}
-#center-about {
-    width: 33%;
-    margin: 0 auto; 
 }
 
 hr {
@@ -120,46 +136,24 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
-
-     font-size: 100%;
-     font-family: Open Sans, sans-serif;
-     letter-spacing: 4px;
-     width: 60px;
-     float: left;
-     line-height: 20px;
-     clear: both;
-
-     margin: 40px;
-     padding-top: 30px;
-     padding-bottom: 30px;
-     
-    width: 400px;
-    height: 130px; 
-
-    position: absolute;
-
-    background-color: rgb(154, 3, 30, .4);
-}
-
 .right-about-heading {
-    width: 60%;
-     float: left;
-     line-height: 20px;
-     clear: both;
-     margin-bottom: 50px;
+    font-size: 100%;
+   font-family: Open Sans, sans-serif;
+   letter-spacing: 3px;
+    
+   position: absolute;
+   line-height: 20px; 
+   width: 40%;
+   height: 290px;
+   float: left;
+   margin-top: 10px;
+   background-color: rgba(211, 141, 154, 0.568);
+   padding: 20px 20px 10px 20px;
+   clear: both;
+   border: solid 2px;
+   border-radius: 5px;
+   color: #2D3E50;
 }
-
-.right-about-heading {
-    text-align: right;
-}
-
-.center-about-heading {
-    width: 60%;
-     float: center;
-     line-height: 20px;
-     clear: both;
-     margin-bottom: 50px;
 }
 
 p left-about-heading {
@@ -170,16 +164,12 @@ p right-about-heading {
     text-align: right;
 }
 
-p center-about-heading {
-    text-align: center;
-} 
-
-
 #cover-text {
     font-size: 130%;
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-weight: bold;
 
     width: 300px;
     height: 200px;
