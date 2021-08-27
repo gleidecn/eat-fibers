@@ -32,7 +32,7 @@ h1 {
 /* ------------------ Navigation Links ----------------*/
 
 #menu {
-    font-size: 140%;
+    font-size: 150%;
     letter-spacing: 4px;
     
 }
@@ -192,23 +192,26 @@ h1 {
 
 #club-fibres {
     height: 600px;
-    /* background:rgb(238, 235, 85); Remove later */
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-top: 20px;
+    /* background: url('../images/strawberies.jpg') no-repeat center center; 
+    opacity: 0.7; */
+    background-color: #FFF5EE;
 }
 
 #title-text-center {
     text-align: center;
     margin: 30px 20px  0 0;
     font-size: 220%;
-    color: #138D75;
+    color: #008080;
     text-align: center;
     
 }
 
 #box-text-one {
    font-size: 100%;
-   font-family: Open Sans, sans-serif;
+   font-family: 'Montserrat', sans-serif;
    letter-spacing: 3px;
 
    height: 250px;
@@ -223,11 +226,11 @@ h1 {
 
    border: solid 2px;
    border-radius: 5px;
-   color: #2D3E50;
+   color: #18251E;
    box-sizing: border-box;
 
    /*display: inline-block;*/
-   background-color: rgba(211, 141, 154, 0.568);
+   background-color: rgba(232, 106, 88, 0.8);
    clear: both;
 }
 
@@ -252,7 +255,7 @@ h1 {
 
 #box-text-two {
    font-size: 100%;
-   font-family: Open Sans, sans-serif;
+   font-family: 'Montserrat', sans-serif;
    letter-spacing: 3px;
 
    height: 210px;
@@ -265,11 +268,11 @@ h1 {
    padding: 20px 20px 30px 20px;
     
    /*display: inline-block;*/
-   background-color: rgba(211, 141, 154, 0.568);
+   background-color: rgba(232, 106, 88, 0.8);
 
    border: solid 2px;
    border-radius: 5px;
-   color: #2D3E50;
+   color: #18251E;
    box-sizing: border-box;
 }
 
@@ -313,7 +316,7 @@ hr {
 /* ---------- video   ------------- */ 
 #video-container { 
     height: 800px;
-    /* background:rgb(238, 85, 192); Remove later */
+    background-color: #9BC7C5; 
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -323,12 +326,13 @@ hr {
     text-align: center;
     margin: 8px 0 0 0;
     font-size: 150%;
+    
 }
 
 #title-video {
     text-align: center;
     margin: 10px 0 30px 0;
-    color: #138D75;
+    color: white;
     text-align: center;
     padding: 2px;
 }
@@ -337,12 +341,12 @@ hr {
 
 footer{
     height: 150px;   
-    /* background:#6cf;  Remove later */
+    background: #FECE5B; 
 }
 
 .social-networks {
    text-align: center;
-   padding: 2px;
+   padding-top: 1px;
    clear: both;
    position: relative;
    
@@ -355,7 +359,7 @@ footer{
 .social-networks i {
    font-size: 170%; 
    margin: 1%;
-   padding-top: 5%;
+   padding-top: 2%;
    color: #2C3E50;
 }
 
