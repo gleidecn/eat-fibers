@@ -19,7 +19,7 @@
     </a>
     <nav>
       <ul id="menu">
-        <li><a href="#contact-us" class="nav-link" >Contact Us</a></li>
+        <li><a href="#form-section" class="nav-link">Contact Us</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="#video-container" class="nav-link">Find out more</a></li>
         <li><a href="#title-text-center" class="nav-link">About</a></li>
@@ -94,9 +94,24 @@
       </section>
     -->
 
-    <section >
+    <section>
+      <section class="form-section">
 
-    </section>
+        <form  class="contact-form" action="assets/images/strawberies.jpg" method="POST">
+            <h2 >Contact Us <i class="fas fa-pencil-alt"></i></h2>
+            
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" attribute="required">
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" attribute="required">
+            
+            <label for="email" id="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+		
+		 <input class="join-button" type="submit" value="Submit">
+		
+        </form>
 
   <footer>
     <ul class="social-networks">
