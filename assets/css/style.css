@@ -9,7 +9,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #2C3E50
+    color: #357e2e
+    
 }
 
 /* ------------------ Heading and Logo  -------------*/
@@ -19,6 +20,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #138D75 ;
+    
 }
 
 #logo{
@@ -30,18 +32,21 @@ h1 {
 /* ------------------ Navigation Links ----------------*/
 
 #menu {
-    font-size: 110%;
+    font-size: 140%;
     letter-spacing: 4px;
+    
 }
 
 #menu, #logo {
     line-height: 75px;
+    /* background:rgb(212, 81, 173); Remove later */
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    /* background:rgb(235, 61, 61); Remove later */
 }
 
 #menu a {
@@ -72,6 +77,7 @@ h1 {
     overflow: hidden;
     background: url('../images/pineapple-bananas.jpg') no-repeat center center;
     background-size: cover;
+    
 }
 
 #cover-text, #cover-text h3 {
@@ -107,7 +113,7 @@ h1 {
     #club-fibres{
         width: 65%;
         height: 1200px;
-        margin: o auto;
+        margin: 0 auto;
     }
 
     #title-text-center {
@@ -115,7 +121,7 @@ h1 {
         margin: 0;
     }
 
-    #box-text-one, box-text-two {
+    #box-text-one, #box-text-two {
         width: 100%;
         float: left;
         padding: 0;
@@ -142,6 +148,7 @@ h1 {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        
     }
 
     #cover-text {
@@ -152,6 +159,7 @@ h1 {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
+        /* background:rgb(85, 202, 238); Remove later */
     }
 
     #box-text-one, #box-text-two {
@@ -167,13 +175,26 @@ h1 {
         text-align: center;
         padding: 0 20px;
     }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
 
 /* ---------------- Text About ------------------------ */
 
 #club-fibres {
-
     height: 600px;
+    /* background:rgb(238, 235, 85); Remove later */
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 #title-text-center {
@@ -198,7 +219,7 @@ h1 {
     
    width: 90%; 
    margin: 50px;
-   padding: 20px 20px 5px 20px;
+   padding: 20px 20px 20px 20px;
 
    border: solid 2px;
    border-radius: 5px;
@@ -212,7 +233,9 @@ h1 {
 
 #title-text-one {
     font-size: 160%;
+    /* color: red !important; */
 } 
+
 
 #title-text-two {
     font-size: 160%;
@@ -221,6 +244,10 @@ h1 {
 #box-text-one > p {
     text-align: left;
     margin: 20px 20px 20px 20px;
+}
+
+#title-text-one > i {
+    color:rgb(0,128,0)
 }
 
 #box-text-two {
@@ -235,7 +262,7 @@ h1 {
    position: relative;
    width: 90%;
    margin: 50px;
-   padding: 20px 20px 20px 20px;
+   padding: 20px 20px 30px 20px;
     
    /*display: inline-block;*/
    background-color: rgba(211, 141, 154, 0.568);
@@ -246,13 +273,13 @@ h1 {
    box-sizing: border-box;
 }
 
-/* #title-text-two {
-    font-size: 130%;
-} */
-
 #box-text-two > p {
     text-align: center;
     margin: 20px 20px 20px 20px;
+}
+
+#title-text-two > i {
+    color: rgb(255,165,0)
 }
 
 
@@ -285,7 +312,10 @@ hr {
 }
 /* ---------- video   ------------- */ 
 #video-container { 
-    height: 600px;
+    height: 800px;
+    /* background:rgb(238, 85, 192); Remove later */
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .fibers-video {
@@ -297,22 +327,25 @@ hr {
 
 #title-video {
     text-align: center;
-    margin: 20px 0 0 0;
-   
+    margin: 10px 0 30px 0;
     color: #138D75;
     text-align: center;
-    padding: 10px auto;
-    
+    padding: 2px;
 }
 
 /* footer */
 
 footer{
-    height: 150px;
+    height: 150px;   
+    /* background:#6cf;  Remove later */
 }
 
 .social-networks {
-    text-align: center;
+   text-align: center;
+   padding: 2px;
+   clear: both;
+   position: relative;
+   
 }
 
 .social-networks > li {
@@ -320,8 +353,9 @@ footer{
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%; 
-    padding: 5%;
-    color: #2C3E50;
+   font-size: 170%; 
+   margin: 1%;
+   padding-top: 5%;
+   color: #2C3E50;
 }
+
