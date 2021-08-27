@@ -78,14 +78,11 @@ h1 {
     color: rgb(31, 31, 32);
 }
 
-
-
 .artichoke {
     width: 100%;
-    height: 900px;
+    height: 600px;
     background: url('../images/artichoke.jpg') no-repeat center center;
     background-size: 50% auto;
-    
 }
 
 /* gallery */
@@ -104,21 +101,21 @@ h1 {
 
 /* media queries */
 
-/* Fot larger to medium screens  size from 1200px wide and down */
+/* For larger to medium screens  size from 1200px wide and down */
 
 @media screen and (max-width: 1200px){
-    #title-text-center{
+    #club-fibres{
         width: 65%;
         height: 1200px;
         margin: o auto;
     }
 
-    #title-text-one {
+    #title-text-center {
         padding: 30px 0;
         margin: 0;
     }
 
-    #container-text-one, container-text-two {
+    #box-text-one, box-text-two {
         width: 100%;
         float: left;
         padding: 0;
@@ -151,40 +148,44 @@ h1 {
         left: 0;
     }
 
-    #title-text-center {
+    #club-fibres {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #title-text-center {
+    #box-text-one, #box-text-two {
         width: inherit;
     }
 
-    #title-text-one h2, #container-text-two h2 {
+    #box-text-one h2, #box-text-two h2 {
         width: 100%;
         text-align: center;
     }
 
-    #title-text-one p, #container-text-two p {
+    #box-text-one p, #box-text-two p {
         text-align: center;
         padding: 0 20px;
     }
 }
 
-    
-
-
-
 /* ---------------- Text About ------------------------ */
 
-#title-text-center {
-    text-align: center; 
-    margin: 20px 0;
-    font-size: 200%;
+#club-fibres {
+
+    height: 600px;
 }
 
-#container-text-one {
+#title-text-center {
+    text-align: center;
+    margin: 30px 20px  0 0;
+    font-size: 220%;
+    color: #138D75;
+    text-align: center;
+    
+}
+
+#box-text-one {
    font-size: 100%;
    font-family: Open Sans, sans-serif;
    letter-spacing: 3px;
@@ -209,12 +210,20 @@ h1 {
    clear: both;
 }
 
-#container-text-one > p {
+#title-text-one {
+    font-size: 160%;
+} 
+
+#title-text-two {
+    font-size: 160%;
+}
+
+#box-text-one > p {
     text-align: left;
     margin: 20px 20px 20px 20px;
 }
 
-#container-text-two {
+#box-text-two {
    font-size: 100%;
    font-family: Open Sans, sans-serif;
    letter-spacing: 3px;
@@ -237,7 +246,11 @@ h1 {
    box-sizing: border-box;
 }
 
-#container-text-two > p {
+/* #title-text-two {
+    font-size: 130%;
+} */
+
+#box-text-two > p {
     text-align: center;
     margin: 20px 20px 20px 20px;
 }
@@ -271,24 +284,25 @@ hr {
     position: absolute;
 }
 /* ---------- video   ------------- */ 
-#video {
-    width: 100%;
-    height: 30px;
-    padding: 35px;
-    margin: 20px 0 20px 0;
+#video-container { 
+    height: 600px;
 }
 
 .fibers-video {
-    margin-right: 60px;
-    padding: 20px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin: 8px 0 0 0;
+    font-size: 150%;
 }
 
 #title-video {
-    width: 100%;
-    height: 30px;
     text-align: center;
-    margin: 30px 0 20px 0;
-    padding: 20px;
+    margin: 20px 0 0 0;
+   
+    color: #138D75;
+    text-align: center;
+    padding: 10px auto;
+    
 }
 
 /* footer */
