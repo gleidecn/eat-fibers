@@ -11,7 +11,7 @@ Here you will find more info how you can find fibers
 
 - Navigation Bar
 
-    - Featured on all four pages, the full responsive navigation bar includes links to the Logo, About page, Find Outo more, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
+    - Featured on all four pages, the full responsive navigation bar includes links to the Logo, About page, Find Out more, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
                 IMAGE HERE
