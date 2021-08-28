@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap");
 
 * {
     margin: 0;
@@ -8,11 +6,10 @@
     border: none;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    color: #357e2e
-    
+    color: #357e2e;
 }
 
 /* ------------------ Heading and Logo  -------------*/
@@ -21,11 +18,10 @@ h1 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #138D75 ;
-    
+    color: #138d75;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 300%;
     margin-left: 30px;
@@ -36,10 +32,10 @@ h1 {
 #menu {
     font-size: 150%;
     letter-spacing: 4px;
-    
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     /* background:rgb(212, 81, 173); Remove later */
 }
@@ -57,11 +53,11 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #138D75;
+    border-bottom: 1px solid #138d75;
 }
 
 .active {
-    border-bottom: #138D75;
+    border-bottom: #138d75;
 }
 
 /* -------------- Images and cover Text-------------- */
@@ -77,21 +73,21 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background: url('../images/pineapple-bananas.jpg') no-repeat center center;
+    background: url("../images/pineapple-bananas.jpg") no-repeat center center;
     background-size: cover;
-    
 }
 
-#cover-text, #cover-text h3 {
+#cover-text,
+#cover-text h3 {
     color: rgb(31, 31, 32);
 }
 
-.artichoke {
+/* .artichoke {
     width: 100%;
     height: 600px;
     background: url('../images/artichoke.jpg') no-repeat center center;
     background-size: 50% auto;
-}
+} */
 
 /* gallery */
 
@@ -104,15 +100,14 @@ h1 {
 
 #photos > img {
     width: 100%;
-    
 }
 
 /* media queries */
 
 /* For larger to medium screens  size from 1200px wide and down */
 
-@media screen and (max-width: 1200px){
-    #club-fibres{
+@media screen and (max-width: 1200px) {
+    #club-fibres {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -123,34 +118,26 @@ h1 {
         margin: 0;
     }
 
-    #box-text-one, #box-text-two {
+    #box-text-one,
+    #box-text-two {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    .artichoke {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    hr{
+    hr {
         display: none;
-    } 
+    }
 }
 
-/* For medium screen sizes from 950px wide and down */ 
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-        
     }
 
     #cover-text {
@@ -161,19 +148,21 @@ h1 {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
-        /* background:rgb(85, 202, 238); Remove later */
     }
 
-    #box-text-one, #box-text-two {
+    #box-text-one,
+    #box-text-two {
         width: inherit;
     }
 
-    #box-text-one h2, #box-text-two h2 {
+    #box-text-one h2,
+    #box-text-two h2 {
         width: 100%;
         text-align: center;
     }
 
-    #box-text-one p, #box-text-two p {
+    #box-text-one p,
+    #box-text-two p {
         text-align: center;
         padding: 0 20px;
     }
@@ -197,50 +186,45 @@ h1 {
     padding-bottom: 60px;
     padding-left: 30px;
     padding-top: 20px;
-    /* background: url('../images/strawberies.jpg') no-repeat center center; 
-    opacity: 0.7; */
-    background-color: #FFF5EE;
+    background-color: #fff5ee;
 }
 
 #title-text-center {
     text-align: center;
-    margin: 30px 20px  0 0;
+    margin: 30px 20px 0 0;
     font-size: 220%;
     color: #008080;
     text-align: center;
-    
 }
 
 #box-text-one {
-   font-size: 100%;
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 3px;
+    font-size: 100%;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
 
-   height: 250px;
-   overflow: hidden;
-   position: relative;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
 
-   text-align: center;
-    
-   width: 90%; 
-   margin: 50px;
-   padding: 20px 20px 20px 20px;
+    text-align: center;
 
-   border: solid 2px;
-   border-radius: 5px;
-   color: #18251E;
-   box-sizing: border-box;
+    width: 90%;
+    margin: 50px;
+    padding: 20px 20px 20px 20px;
 
-   /*display: inline-block;*/
-   background-color: rgba(232, 106, 88, 0.8);
-   clear: both;
+    border: solid 2px;
+    border-radius: 5px;
+    color: #18251e;
+    box-sizing: border-box;
+
+    /*display: inline-block;*/
+    background-color: rgba(232, 106, 88, 0.8);
+    clear: both;
 }
 
 #title-text-one {
     font-size: 160%;
-    /* color: red !important; */
-} 
-
+}
 
 #title-text-two {
     font-size: 160%;
@@ -251,31 +235,27 @@ h1 {
     margin: 20px 20px 20px 20px;
 }
 
-/* #title-text-one > i {
-    color:rgb(0,128,0)
-} */
-
 #box-text-two {
-   font-size: 100%;
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 3px;
+    font-size: 100%;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
 
-   height: 210px;
-   overflow: hidden;
+    height: 210px;
+    overflow: hidden;
 
-   text-align: center;
-   position: relative;
-   width: 90%;
-   margin: 50px;
-   padding: 20px 20px 30px 20px;
-    
-   /*display: inline-block;*/
-   background-color: rgba(232, 106, 88, 0.8);
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 50px;
+    padding: 20px 20px 30px 20px;
 
-   border: solid 2px;
-   border-radius: 5px;
-   color: #18251E;
-   box-sizing: border-box;
+    /*display: inline-block;*/
+    background-color: rgba(232, 106, 88, 0.8);
+
+    border: solid 2px;
+    border-radius: 5px;
+    color: #18251e;
+    box-sizing: border-box;
 }
 
 #box-text-two > p {
@@ -283,17 +263,11 @@ h1 {
     margin: 20px 20px 20px 20px;
 }
 
-/* #title-text-two > i {
-    color: rgb(255,165,0)
-} */
-
-
 hr {
-    border-top: 1px solid #2C3E50;
+    border-top: 1px solid #2c3e50;
     width: 100%;
     margin: 5px 0;
 }
-
 
 #cover-text {
     font-size: 130%;
@@ -303,47 +277,44 @@ hr {
     font-weight: bold;
 
     width: 300px;
-    height: 200px;
+    height: 180px;
 
-    padding-top: 35px;
-    padding-left: 20px;
+    padding: 30px 30px 3px 30px;
 
-    background-color: rgb(255, 204, 204, .7);
+    background-color: rgba(245, 70, 70, 0.7);
 
     bottom: 30px;
     left: 300px;
 
     position: absolute;
 }
-/* ---------- video   ------------- */ 
-#video-container { 
-    height: 800px;
-    background-color: #9BC7C5; 
-    padding-top: 20px;
-    padding-bottom: 10px;
+/* ---------- video   ------------- */
+
+#video-container {
+    height: 900px;
+    background-color: #9bc7c5;
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
 
 .fibers-video {
-    padding: 20px 0 0 0;
+    padding: 20px 5px 20px 0;
     text-align: center;
-    margin: 8px 0 0 0;
-    font-size: 150%;
-    
+    margin: 30px 0 0 0;
+    font-size: 160%;
 }
 
 #title-video {
-    text-align: center;
-    margin: 10px 0 30px 0;
+    margin: 60px 0 30px 0;
     color: white;
-    text-align: center;
-    padding: 2px;
+    padding: 40px 10 10 10;
 }
 
-/* Form */
+/* Form Contact Us */
 
-.form-section {
+.contact-section {
     clear: left;
-    background: url("../images/strawberies.jpg"); 
+    background: url("../images/strawberies.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -351,7 +322,7 @@ hr {
 
 .contact-form {
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
@@ -370,13 +341,13 @@ hr {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa; 
+    border: 1px solid #fafafa;
     border-radius: 2px;
 }
 
-.text-input:hover { 
-    border-color: #f16c6b; 
-    background-color: #fafafa;
+.text-input:hover {
+    border-color: #030303cf;
+    background-color: #f085c3;
 }
 
 .join-button {
@@ -391,23 +362,22 @@ hr {
 }
 
 .join-button:hover {
-    color: #f16c6b; 
-    background-color: #fafafa;
+    color: #030303;
+    background-color: #f085c3;
 }
 
 /* footer */
 
-footer{
-    height: 150px;   
-    background: #FECE5B; 
+footer {
+    height: 90px;
+    background: #fece5b;
 }
 
 .social-networks {
-   text-align: center;
-   padding-top: 1px;
-   clear: both;
-   position: relative;
-   
+    text-align: center;
+    padding-top: 2px;
+    clear: both;
+    position: relative;
 }
 
 .social-networks > li {
@@ -415,9 +385,8 @@ footer{
 }
 
 .social-networks i {
-   font-size: 170%; 
-   margin: 1%;
-   padding-top: 2%;
-   color: #2C3E50;
+    font-size: 140%;
+    margin: 1%;
+    padding-top: 1%;
+    color: #2c3e50;
 }
-
