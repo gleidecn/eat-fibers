@@ -1,8 +1,7 @@
 # EAT FIBERS
 
 Eat fibers is a site that wants to encourage people to add more fibers to their day-to-day diet. 
-
-                        IMAGE HERE
+![Landing Page Responsive](/workspace/eat-fibers/assets/images/my-landining.png)
 
 
 FEATURES
