@@ -1,12 +1,9 @@
 # EAT FIBERS
 
 Eat fibers is a site that wants to encourage people to add more fibers to their day-to-day diet. 
-<<<<<<< HEAD
-![Landing Page Responsive](/workspace/eat-fibers/assets/images/my-landining.png)
-=======
 
->>>>>>> c756671639fb30207fe4036e72ac45cf98f1afd6
-
+![Landing Page](/workspace/eat-fibers/assets/images/landing-page.png)
+![Landing Page](/workspace/eat-fibers/assets/images/club-fibers.png)
 
 FEATURES
 
@@ -18,65 +15,53 @@ Here you will find more info how you can find fibers
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 
-
  - The landing page image
 
     - The landing includes a photograph with text overlay to allow the user to see what is this site about.
     - I've chosen this image because is eye-catching. 
     - I also add a text box on the lef hand side of the image to be more dramatic.
 
-
-            IMAGE HERE
-
-
+![Landing Page](/workspace/eat-fibers/assets/images/landing-page.png)
+![Landing Page](/workspace/eat-fibers/assets/images/club-fibers.png)
 
 - Club Fibers Section
 
    - The club fibers section will allow the user to have some information about why is so important to consume fibers every single day
 
 
-                IMAGE HERE
-
+  ![Club fibers](/workspace/eat-fibers/assets/images/landing-page.png)
 
 - The Footer
 
     - The footer section includes links to the relevant social media sites for Eat Fibers. The links will open to a new tab to allow easy navigation for the user.    
     - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-
-                IMAGE HERE
-
-
+![Footer](/workspace/eat-fibers/assets/images/footer.png)
 
 - Find Out more page
 
     - This section will allow the user to see a short video explain what is fibers and how they can get from. 
     - I've added the video to keep the user on my page and navigation more as well. and once they open the page they won't leave mine.
 
-
-                IMAGE HERE
-
+![Video](/workspace/eat-fibers/assets/images/video-01.png)
+![Video](/workspace/eat-fibers/assets/images/video-02.png)
 
  - Gellery Page
 
     - The gallery will provide the user with some ideas of what they could eat and drink on a daily basis.
 
-
-                IMAGE HERE
-
-
+![Video](/workspace/eat-fibers/assets/images/gallery-01.png)
+![Video](/workspace/eat-fibers/assets/images/gallery-02.png)
 
  - The Concat Us Page
 
     - This page will allow the user to get in touch with us in case they have any questions about fibers.
 
-
-            IMAGE HERE  
-
+![Video](/workspace/eat-fibers/assets/images/contact-01.png)
+![Video](/workspace/eat-fibers/assets/images/contact-02.png)
 
  - Features Left to Implement
 
-    - I want to change the top header of the find out more page.
     - I want to add some pictures behind the section title-text-one and title-text-two.
     - I want to place the pictures on the gallery section I want the bottom part,  make a perfect square!
 
@@ -85,8 +70,6 @@ Here you will find more info how you can find fibers
  - TESTING
     - I´ve run the website on the differents web servers, such as Google, Safari and Fire Fox.
     
-
-
 
 
 - Unfixed Bugs
