@@ -1,7 +1,7 @@
 # EAT FIBERS
 
 Eat fibers is a site that wants to encourage people to add more fibers to their day-to-day diet. 
-![Landing Page Responsive](assets/images/landing.png)
+
 
 
 FEATURES
@@ -13,7 +13,6 @@ Here you will find more info how you can find fibers
     - Featured on all four pages, the full responsive navigation bar includes links to the Logo, About page, Find Out more, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-                IMAGE HERE
 
 
  - The landing page image
