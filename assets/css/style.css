@@ -74,7 +74,7 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background: url('../images/pineapple-bananas.jpg') no-repeat center center;
+    background: url('../images/pineapple-b-light-min.jpeg') no-repeat center center;
     background-size: cover;
     
 }
@@ -309,7 +309,7 @@ hr {
 
 .contact-section {
     clear: left;
-    background: url("../images/strawberies.jpg"); 
+    background: url("../images/strawberry-light-min.jpeg"); 
     background-size: cover;
     background-position: center;
     height: 900px;
