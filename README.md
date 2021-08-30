@@ -2,12 +2,12 @@
 
 Eat fibers is a site that wants to encourage people to add more fibers to their day-to-day diet. 
 
-![Landing Page](./assets/images/landing-page.png)
-![Landing Page](./assets/images/club-fibers.png)
+![Landing Page](./assets/images/.png)   
+![Landing Page](./assets/images/.png)    
 
-FEATURES
+## FEATURES
 
-Here you will find more info how you can find fibers 
+### Here you will find more info how you can find fibers 
 
 - Navigation Bar
 
@@ -15,71 +15,84 @@ Here you will find more info how you can find fibers
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 
- - The landing page image
+ ### The landing page image
 
     - The landing includes a photograph with text overlay to allow the user to see what is this site about.
     - I've chosen this image because is eye-catching. 
     - I also add a text box on the lef hand side of the image to be more dramatic.
 
-![Landing Page](./assets/images/landing-page.png)
-![Landing Page](./assets/images/club-fibers.png)
+![Landing Page](./assets/images/.png)   
+![Landing Page](./assets/images/.png)   
 
-- Club Fibers Section
+### Club Fibers Section
 
    - The club fibers section will allow the user to have some information about why is so important to consume fibers every single day
 
 
-  ![Club fibers](./assets/images/landing-page.png)
+  ![Club fibers](./assets/images/.png) 
 
-- The Footer
+## The Footer
 
     - The footer section includes links to the relevant social media sites for Eat Fibers. The links will open to a new tab to allow easy navigation for the user.    
     - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](./assets/images/footer.png)
+![Footer](./assets/images/.png)  
 
-- Find Out more page
+## Find Out more page
 
     - This section will allow the user to see a short video explain what is fibers and how they can get from. 
     - I've added the video to keep the user on my page and navigation more as well. and once they open the page they won't leave mine.
 
-![Video](./assets/images/video-01.png)
-![Video](./assets/images/video-02.png)
+![Video](./assets/images/.png)
+![Video](./assets/images/.png)
 
- - Gellery Page
+ ## Gellery Page
 
     - The gallery will provide the user with some ideas of what they could eat and drink on a daily basis.
 
-![Video](./assets/images/gallery-01.png)
-![Video](./assets/images/gallery-02.png)
+![Video](./assets/images/.png)
+![Video](./assets/images/.png)
 
- - The Concat Us Page
+ ## The Concat Us Page
 
     - This page will allow the user to get in touch with us in case they have any questions about fibers.
 
-![Video](./assets/images/contact-01.png)
-![Video](./assets/images/contact-02.png)
+![Video](./assets/images/.png)
+![Video](./assets/images/.png)
 
- - Features Left to Implement
+ ## Features Left to Implement
 
     - I want to add some pictures behind the section title-text-one and title-text-two.
     - I want to place the pictures on the gallery section I want the bottom part,  make a perfect square!
 
 
 
- - TESTING
+ ## TESTING
     - I´ve run the website on the differents web servers, such as Google, Safari and Fire Fox.
+    - Running the code on The W3C CSS Validation Service I was able to spot few erros:
+    - Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. 
+   
+    - I´ve also notice this erros:
+        - Imported style sheets are not checked in direct input and file upload modes
+        - So I´ve researched on [https://www.py4u.net/discuss/1074517] and founded this answer:
+    - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you.
     
 
 
-- Unfixed Bugs
+## Unfixed Bugs
 
     - 
 
 
-- Deployment
+## Deployment
 
-    - 
+#### I've found very interesting the process of doing the deployment, very useful and helpful as well. I think it was great having the chance to expose my projects and my live website.
+
+    - The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    
 
 
 - Credits    

@@ -7,20 +7,18 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "'Montserrat', sans-serif";
     font-weight: 300;
-    color: #138D75
-    
+    color: #138D75;
 }
 
 /* ------------------ Heading and Logo  -------------*/
 
 h1 {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans, sans-serif";
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #138D75 ;
-    
+    color: #138D75;
 }
 
 #logo{
@@ -32,9 +30,8 @@ h1 {
 /* ------------------ Navigation Links ----------------*/
 
 #menu {
-    font-size: 150%;
+    font-size: 160%;
     letter-spacing: 4px;
-    
 }
 
 #menu, #logo {
@@ -76,14 +73,11 @@ h1 {
     overflow: hidden;
     background: url('../images/pineapple-b-light-min.jpeg') no-repeat center center;
     background-size: cover;
-    
 }
 
 #cover-text, #cover-text h3 {
     color: rgb(31, 31, 32);
 }
-
-
 
 /* gallery */
 
@@ -99,18 +93,17 @@ h1 {
 }
 
 /* media queries */
-
 /* For larger to medium screens  size from 1200px wide and down */
 
 @media screen and (max-width: 1200px){
     #club-fibers{
         width: 65%;
-        height: 1200px;
+        /* height: 1200px; */
         margin: 0 auto;
     }
 
     #title-text-center {
-        padding: 30px 0;
+        padding: 10px 0;
         margin: 0;
     }
 
@@ -142,7 +135,6 @@ h1 {
 
     #club-fibers {
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
 
@@ -173,18 +165,14 @@ h1 {
 }
 
 /* ---------------- Text About ------------------------ */
-
 #club-fibers {
-    height: 600px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     padding-left: 30px;
     padding-top: 20px;
-    background-color: #FFF5EE;
 }
 
 #title-text-center {
     text-align: center;
-    margin: 30px 20px  0 0;
     font-size: 220%;
     color: #008080;
     text-align: center;
@@ -192,33 +180,23 @@ h1 {
 
 #box-text-one {
    font-size: 100%;
-   font-family: 'Montserrat', sans-serif;
+   font-family: "'Montserrat', sans-serif";
    letter-spacing: 3px;
-
-   height: 250px;
    overflow: hidden;
    position: relative;
-
    text-align: center;
-    
    width: 90%; 
-   margin: 50px;
-   padding: 20px 20px 20px 20px;
-
-   border: solid 2px;
-   border-radius: 5px;
+   margin: 10px;
    color: #060706;
    box-sizing: border-box;
-
-   /*display: inline-block;*/
-   background-color: rgba(233, 122, 105, 0.8);
+   
    clear: both;
 }
 
 #title-text-one {
     font-size: 160%;
+    padding: 20px;
 } 
-
 
 #title-text-two {
     font-size: 160%;
@@ -226,63 +204,42 @@ h1 {
 
 #box-text-one > p {
     text-align: left;
-    margin: 20px 20px 20px 20px;
 }
 
 #box-text-two {
    font-size: 100%;
-   font-family: 'Montserrat', sans-serif;
+   font-family: "'Montserrat', sans-serif";
    letter-spacing: 3px;
-
-   height: 210px;
    overflow: hidden;
-
    text-align: center;
    position: relative;
    width: 90%;
    margin: 50px;
-   padding: 20px 20px 30px 20px;
-    
-   /*display: inline-block;*/
-   background-color: rgba(233, 122, 105, 0.8);
-
-   border: solid 2px;
-   border-radius: 5px;
    color: #060706;
    box-sizing: border-box;
 }
 
 #box-text-two > p {
-    text-align: center;
-    margin: 20px 20px 20px 20px;
+    text-align: left;
+    
 }
-
-hr {
-    border-top: 1px solid #2C3E50;
-    width: 100%;
-    margin: 5px 0;
-}
-
 
 #cover-text {
     font-size: 130%;
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans, sans-serif";
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bold;
-
     width: 300px;
     height: 180px;
-
     padding: 30px 30px 3px 30px;
     
     background-color: rgba(0, 0, 0, 0.7);
-
     bottom: 30px;
     left: 300px;
-
     position: absolute;
 }
+
 /* ---------- video   ------------- */ 
 
 #video-container { 
@@ -291,14 +248,12 @@ hr {
     padding-top: 60px;
     padding-bottom: 1px;
 }
-
 .fibers-video {
     padding: 40px 5px 20px 0;
     text-align: center;
     margin: 30px 0 0 0;
     font-size: 160%;
 }
-
 #title-video {
     margin: 30px 0 30px 0;
     color: #2C3E50;
