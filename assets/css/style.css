@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap");
 
 * {
     margin: 0;
@@ -6,10 +6,10 @@
     border: none;
 }
 
-body{
+body {
     font-family: "'Montserrat', sans-serif";
     font-weight: 300;
-    color: #138D75;
+    color: #138d75;
 }
 
 /* ------------------ Heading and Logo  -------------*/
@@ -18,10 +18,10 @@ h1 {
     font-family: "Open Sans, sans-serif";
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #138D75;
+    color: #138d75;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 300%;
     margin-left: 30px;
@@ -34,7 +34,8 @@ h1 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -42,7 +43,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    color: #138D75;
+    color: #138d75;
 }
 
 #menu a {
@@ -51,11 +52,11 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #138D75;
+    border-bottom: 1px solid #138d75;
 }
 
 .active {
-    border-bottom: #138D75;
+    border-bottom: #138d75;
 }
 
 /* -------------- Images and cover Text-------------- */
@@ -71,11 +72,12 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background: url('../images/pineapple-b-light-min.jpeg') no-repeat center center;
+    background: url("../images/pineapple-b-light-min.jpeg") no-repeat center center;
     background-size: cover;
 }
 
-#cover-text, #cover-text h3 {
+#cover-text,
+#cover-text h3 {
     color: rgb(31, 31, 32);
 }
 
@@ -95,10 +97,9 @@ h1 {
 /* media queries */
 /* For larger to medium screens  size from 1200px wide and down */
 
-@media screen and (max-width: 1200px){
-    #club-fibers{
+@media screen and (max-width: 1200px) {
+    #club-fibers {
         width: 65%;
-        /* height: 1200px; */
         margin: 0 auto;
     }
 
@@ -107,20 +108,20 @@ h1 {
         margin: 0;
     }
 
-    #box-text-one, #box-text-two {
+    #box-text-one,
+    #box-text-two {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
-    } 
+    }
 }
 
-/* For medium screen sizes from 950px wide and down */ 
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
     #menu {
         clear: left;
         float: left;
@@ -130,7 +131,7 @@ h1 {
     }
 
     #cover-text {
-        left: 0;
+        float: left;
     }
 
     #club-fibers {
@@ -138,16 +139,19 @@ h1 {
         margin: 0 auto;
     }
 
-    #box-text-one, #box-text-two {
+    #box-text-one,
+    #box-text-two {
         width: inherit;
     }
 
-    #box-text-one h2, #box-text-two h2 {
+    #box-text-one h2,
+    #box-text-two h2 {
         width: 100%;
         text-align: center;
     }
 
-    #box-text-one p, #box-text-two p {
+    #box-text-one p,
+    #box-text-two p {
         text-align: center;
         padding: 0 20px;
     }
@@ -169,59 +173,59 @@ h1 {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-top: 20px;
+    text-align: center;
 }
 
 #title-text-center {
     text-align: center;
     font-size: 220%;
     color: #008080;
-    text-align: center;
 }
 
 #box-text-one {
-   font-size: 100%;
-   font-family: "'Montserrat', sans-serif";
-   letter-spacing: 3px;
-   overflow: hidden;
-   position: relative;
-   text-align: center;
-   width: 90%; 
-   margin: 10px;
-   color: #060706;
-   box-sizing: border-box;
-   
-   clear: both;
+    font-size: 100%;
+    font-family: "'Montserrat', sans-serif";
+    letter-spacing: 3px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 10px;
+    color: #060706;
+    box-sizing: border-box;
+    clear: both;
 }
 
 #title-text-one {
     font-size: 160%;
     padding: 20px;
-} 
+}
 
 #title-text-two {
     font-size: 160%;
+    padding: 20px;
 }
 
 #box-text-one > p {
-    text-align: left;
+    text-align: center;
 }
 
 #box-text-two {
-   font-size: 100%;
-   font-family: "'Montserrat', sans-serif";
-   letter-spacing: 3px;
-   overflow: hidden;
-   text-align: center;
-   position: relative;
-   width: 90%;
-   margin: 50px;
-   color: #060706;
-   box-sizing: border-box;
+    font-size: 100%;
+    font-family: "'Montserrat', sans-serif";
+    letter-spacing: 3px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 10px;
+    color: #060706;
+    box-sizing: border-box;
+    clear: both;
 }
 
 #box-text-two > p {
-    text-align: left;
-    
+    text-align: center;
 }
 
 #cover-text {
@@ -233,38 +237,26 @@ h1 {
     width: 300px;
     height: 180px;
     padding: 30px 30px 3px 30px;
-    
+
     background-color: rgba(0, 0, 0, 0.7);
     bottom: 30px;
     left: 300px;
     position: absolute;
 }
 
-/* ---------- video   ------------- */ 
+/* ---------- video   ------------- */
 
-#video-container { 
-    height: 900px;
-    background-color: white; 
+#video-container {
+    background-color: white;
     padding-top: 60px;
     padding-bottom: 1px;
-}
-.fibers-video {
-    padding: 40px 5px 20px 0;
-    text-align: center;
-    margin: 30px 0 0 0;
-    font-size: 160%;
-}
-#title-video {
-    margin: 30px 0 30px 0;
-    color: #2C3E50;
-    padding: 10px 10 10 10;
 }
 
 /* Form Contact Us */
 
 .contact-section {
     clear: left;
-    background: url("../images/strawberry-light-min.jpeg"); 
+    background: url("../images/strawberry-light-min.jpeg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -291,12 +283,12 @@ h1 {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa; 
+    border: 1px solid #fafafa;
     border-radius: 2px;
 }
 
-.text-input:hover { 
-    border-color: #030303cf; 
+.text-input:hover {
+    border-color: #030303cf;
     background-color: #f085c3;
 }
 
@@ -312,23 +304,21 @@ h1 {
 }
 
 .join-button:hover {
-    color: #030303; 
+    color: #030303;
     background-color: #f085c3;
 }
 
 /* footer */
 
-footer{
-    height: 90px;   
-    /* background: #FECE5B;  */
+footer {
+    height: 90px;
 }
 
 .social-networks {
-   text-align: center;
-   padding-top: 2px;
-   clear: both;
-   position: relative;
-   
+    text-align: center;
+    padding-top: 2px;
+    clear: both;
+    position: relative;
 }
 
 .social-networks > li {
@@ -336,8 +326,9 @@ footer{
 }
 
 .social-networks i {
-   font-size: 140%; 
-   margin: 1%;
-   padding-top: 1%;
-   color: #2C3E50;
+    font-size: 140%;
+    margin: 1%;
+    padding-top: 1%;
+    color: #2c3e50;
 }
+
