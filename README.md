@@ -97,13 +97,13 @@
 ![CSS Validation](./assets/images/import-error.png)
 
     - So I've researched on [https://www.py4u.net/discuss/1074517] and founded this answer:
-    - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, **just some information for you**.
+    - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you.
 
     - I´ve also testes on the mobile size and the code is responsive:
 
 ![Good Responsive](./assets/images/media-query.png)
 
-    - I´ve used the DevTools and the **Ligthhouse** report to achieve the results:
+    - I´ve used the DevTools and the Lighthouse report to achieve the results:
 
 
 #### Before any change on the web site:
@@ -130,10 +130,12 @@
 #### I've found very interesting the process of doing the deployment, very useful and helpful as well. I think it was great having the chance to expose my projects and my live website.
 
     - The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+        - In the GitHub repository, navigate to the Settings tab
+        - From the source section drop-down menu, select the Master Branch
+        - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     
+- The link for my live project can be found here [Github](https://gleidecn.github.io/eat-fibers/)
+
 
 ## Credits    
 
