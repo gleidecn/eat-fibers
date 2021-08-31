@@ -1,6 +1,7 @@
 # EAT FIBERS
 
-##### Eat fibers is a site that wants to encourage people to consume more fibers in their day-to-day diet.
+#### Eat fibers is a site that wants to encourage people to consume more fibers in their day-to-day diet.
+
  
 ![Responsive](./assets/images/responsive.png)
    
@@ -12,8 +13,9 @@
     - Featured on all four pages, the full responsive navigation bar includes links to the Logo, About page, Find Out more, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Navigation Bar](./assets/images/nav-bar.png)
 
+
+![Navigation Bar](./assets/images/nav-bar.png)
 
 
  ### The landing page image
@@ -21,6 +23,7 @@
     - The landing includes a photograph with text overlay to allow the user to see what is this site about.
     - The reason I´ve chosen this image is because it is eye-catching.
     - I also add a text box on the left hand side of the image to be more dramatic.
+
 
 ![Landing Page](./assets/images/firefox-landing.png)   
 ![Landing Page](./assets/images/firefox-landing-02.png)   
@@ -36,6 +39,7 @@
 
     - The footer section includes links to the relevant social media sites for Eat Fibers. The links will open to a new tab to allow easy navigation for the user.    
     - The footer is valuable to the user as it encourages them to keep connected via social media.
+
 
 ![Footer](./assets/images/footer.png)  
 
@@ -53,7 +57,7 @@
 ![Video](./assets/images/firefox-gallery.png)
 
 
- ## Contac Section
+ ## Contac Us Section
 
     - This page will allow the user to get in touch with us in case they have any questions related to fibers.
 
@@ -61,20 +65,26 @@
 
  ## Features Left to Implement
 
-    - I want to improve the Club-Fibers Section, I need to improve the text, the sections, I want to add few pictures on each DIV.
-    - I want to add some pictures behind the section title-text-one and title-text-two.
-    - I want to format the gallery section and make a perfect square onthe bottom of the section.
-    - I need to improve the Contact section I need to page be just in one square, like the Find Out More section.
-
+    - I want to improve the Club-Fibers Section, I need to improve the format of the text.
+    - I want to add some pictures behind the section box-text-one and box-text-two.
+    - I want to format the gallery section and make a perfect square at the bottom of the section.
+    - I need to improve the Contact section I need the to page be adjusted in one square, like the Find Out More section.
 
 
  ## TESTING
-    - I´ve run the website on the differents web servers, such as Google, Safari and Firefox.
-        - I´ve notice the Firefox has a better image quality compare to the others.
 
+    - I´ve run the website on the differents web browsers, such as Google, Safari and Firefox.
+    - I´ve notice the Firefox has a better image quality compare to the others.
+
+        - Firefox
 ![Firefox](./assets/images/Firexfox-browser.png)
+
+        - Chrome
 ![Chrome](./assets/images/Chrome-browser.png)
+
+        - Safari
 ![Safari](./assets/images/Safari-browser.png) 
+
 
     - Running the code on The W3C CSS Validation Service I was able to spot few erros:
     - Family names containing whitespace should be quoted. If quoting is omitted, any whitespace characters before and after the name are ignored and any sequence of whitespace characters inside the name is converted to a single space. 
@@ -82,30 +92,30 @@
 ![HTML Cheker](./assets/images/after-Html-Checker.png)
    
     - I´ve also notice this erros:
-        - Imported style sheets are not checked in direct input and file upload modes
+    - Imported style sheets are not checked in direct input and file upload modes.
 
 ![CSS Validation](./assets/images/import-error.png)
 
     - So I've researched on [https://www.py4u.net/discuss/1074517] and founded this answer:
-    - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, just some information for you.
+    - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, **just some information for you**.
 
-    - I´ve used the DevTools and the Ligthhouse report the results:
+    - I´ve used the DevTools and the **Ligthhouse** report to achieve the results:
 
-#### Before any change
+#### Before any change on the web site:
 
 ![Bad Performance and Accessibility](./assets/images/bad-accessibility.png)
 
-#### Good Accessibility
+#### After few changes:
 
-- After applying some rules on good accessibility, performance, and decreasing the size of the images I was able to achieve a good metrics on the Lighthouse tool.
+    - After applying some rules on good accessibility, performance, and decreasing the size of the images I was able to achieve good metrics on the Lighthouse tool.
 
 ![Good Performance and Accessibility](./assets/images/after-decompresing-img.png)
 
-        - I´ve also testes on the mobile size and the code is responsive:
+    - I´ve also testes on the mobile size and the code is responsive:
+
 ![Good Responsive](./assets/images/media-query.png)
 
     
-
 ## Unfixed Bugs
 
     - The gallery I need to improve the bottom of the all images.
@@ -125,17 +135,17 @@ Once the master branch has been selected, the page will be automatically refresh
 
 
 ## Credits    
+
 #### Links:
 
-- I´ve got the text from the cover text from 
-    - [Pinterest](https://www.pinterest.co.uk/pin/AULzf4aIXkqkba3H0geTUaY6IgSlPagTTxdvcmdNemCGtvbb8Lr3L5U/)
+- Quote from cover text on the landing page was from [Pinterest](https://www.pinterest.co.uk/pin/AULzf4aIXkqkba3H0geTUaY6IgSlPagTTxdvcmdNemCGtvbb8Lr3L5U/)
 
 - The Club Fibers text was from [Harvard the nutrition source](https://www.hsph.harvard.edu/nutritionsource/carbohydrates/fiber/)
 
     
 ### Media:
 
-    - [Unsplash](https://unsplash.com) - creaters:
+    - [Unsplash](https://unsplash.com) - creators:
 
             - [Nathan Dumlao]
             - [Vitalii Pavlyshynets]
@@ -151,18 +161,18 @@ Once the master branch has been selected, the page will be automatically refresh
 
 #### Video:
 
-        - [You Tube - Med Today] (https://www.youtube.com/results?search_query=how+to+get+more+fibers)
+    - [You Tube - Med Today] (https://www.youtube.com/results?search_query=how+to+get+more+fibers)
 
 
 ##### Content
 
-    - The text for the Home page was taken from Pinterast post.
+    - The quote from landing page was taken from Pinterast post.
     - The main text was from Harvard the nutrition source.
     - Instructions on how to implement video section: You Tube: Med Today.
-    - The icons in the club-fibres section, the footer and the form contact us were taken from Font Awesome.
+    - The icons in the club-fibres section, the footer and the contact us section were taken from Font Awesome.
 
 
 #### Media
-    - The photos used on the home and sign up page are from This Open Source site
-    - The images used for the gallery page were taken from this other open source site: 
+
+    - The photos used on the home, gallery, and sign up page were taken from an Open Source site:
         - (https://unsplash.com)
