@@ -99,7 +99,12 @@
     - So I've researched on [https://www.py4u.net/discuss/1074517] and founded this answer:
     - You're just trying to validate your CSS file using the W3C validator, and it's letting you know that it's not going to validate the imported style sheet (Google's). It's not an error, **just some information for you**.
 
+    - I´ve also testes on the mobile size and the code is responsive:
+
+![Good Responsive](./assets/images/media-query.png)
+
     - I´ve used the DevTools and the **Ligthhouse** report to achieve the results:
+
 
 #### Before any change on the web site:
 
@@ -111,9 +116,6 @@
 
 ![Good Performance and Accessibility](./assets/images/after-decompresing-img.png)
 
-    - I´ve also testes on the mobile size and the code is responsive:
-
-![Good Responsive](./assets/images/media-query.png)
 
     
 ## Unfixed Bugs
@@ -133,7 +135,6 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     
 
-
 ## Credits    
 
 #### Links:
@@ -145,7 +146,8 @@ Once the master branch has been selected, the page will be automatically refresh
     
 ### Media:
 
-    - [Unsplash](https://unsplash.com) - creators:
+- [Unsplash](https://unsplash.com) 
+    - creators:
 
             - [Nathan Dumlao]
             - [Vitalii Pavlyshynets]
@@ -159,10 +161,10 @@ Once the master branch has been selected, the page will be automatically refresh
             - [Brooke Lark]
             - [Vitalii Pavlyshynets]
 
-#### Video:
+#### Media
 
-    - [You Tube - Med Today] (https://www.youtube.com/results?search_query=how+to+get+more+fibers)
-
+    - The photos used on the home, gallery, and sign up page were taken from an Open Source site:
+        - (https://unsplash.com)
 
 ##### Content
 
@@ -171,8 +173,7 @@ Once the master branch has been selected, the page will be automatically refresh
     - Instructions on how to implement video section: You Tube: Med Today.
     - The icons in the club-fibres section, the footer and the contact us section were taken from Font Awesome.
 
+#### Video:
 
-#### Media
+- Med Today - Foods Rich In Fiber [You Tube](https://www.youtube.com/watch?v=z6KeGsQQGt0)
 
-    - The photos used on the home, gallery, and sign up page were taken from an Open Source site:
-        - (https://unsplash.com)
